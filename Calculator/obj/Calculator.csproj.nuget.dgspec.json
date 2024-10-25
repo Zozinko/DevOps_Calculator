@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iakimov.Nikolai\\Downloads\\DevOps_1\\Calculator\\Calculator\\Calculator.csproj": {}
+    "C:\\Users\\Iakimov.Nikolai\\Desktop\\DevOps_Calculator\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iakimov.Nikolai\\Downloads\\DevOps_1\\Calculator\\Calculator\\Calculator.csproj": {
+    "C:\\Users\\Iakimov.Nikolai\\Desktop\\DevOps_Calculator\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iakimov.Nikolai\\Downloads\\DevOps_1\\Calculator\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "C:\\Users\\Iakimov.Nikolai\\Desktop\\DevOps_Calculator\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\Users\\Iakimov.Nikolai\\Downloads\\DevOps_1\\Calculator\\Calculator\\Calculator.csproj",
+        "projectPath": "C:\\Users\\Iakimov.Nikolai\\Desktop\\DevOps_Calculator\\Calculator\\Calculator.csproj",
         "packagesPath": "C:\\Users\\Iakimov.Nikolai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iakimov.Nikolai\\Downloads\\DevOps_1\\Calculator\\Calculator\\obj\\",
+        "outputPath": "C:\\Users\\Iakimov.Nikolai\\Desktop\\DevOps_Calculator\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Iakimov.Nikolai\\AppData\\Roaming\\NuGet\\NuGet.Config",
