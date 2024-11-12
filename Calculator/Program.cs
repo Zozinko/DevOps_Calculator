@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Calculator.Data;
+using Calculator.Services;
+using Confluent.Kafka;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +16,12 @@ builder.Services.AddDbContext<CalculatorContext>(options =>
 });
 
 builder.Services.AddRazorPages();
+
+builder.Services.AddHttpClient();
+
+builder.Services.AddHostedService<KafkaConsumerService>();
+builder.Services.AddSingleton<KafkaProducerHandler>();
+builder.Services.AddSingleton<KafkaProducerService<Null, string>>();
 
 var app = builder.Build();
 

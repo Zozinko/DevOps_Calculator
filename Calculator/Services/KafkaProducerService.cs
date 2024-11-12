@@ -34,4 +34,3 @@ namespace Calculator.Services
             => kafkaHandle.Flush(timeout);
     }
 }
-
