@@ -24,7 +24,7 @@ namespace Calculator.Controllers
         public IActionResult Index()
         {
             var data = _context.DataInputVariants.OrderByDescending(x => x.ID_DataInputVariant).ToList();
-
+            ViewBag.Data = data;
             return View(data);
         }
 

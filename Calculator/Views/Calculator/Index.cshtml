@@ -1,10 +1,13 @@
 ﻿@{
     ViewData["Title"] = "Yakimov Nikolay";
+    
 }
+
+@using Calculator.Extension;
 
 <h2>@ViewData["Title"]</h2>
 
-<form method="post" asp-controller="Calculator" asp-action="Calculate">
+<form method="post" asp-controller="Calculator" asp-action="ProcessingCalculationRequest">
     @Html.AntiForgeryToken()
     <input type="text" name="num1" required />
     <select name="operation" required>
@@ -17,7 +20,14 @@
     <input type="submit" value="Calculate" />
 </form>
 
-@if (ViewBag.Result != null)
+<ul>
+@if (ViewBag.Data != null)
 {
-    <h3>Result: @ViewBag.Result</h3>
+    @foreach(var rec in ViewBag.Data)
+    {
+        <li>
+                <p>(@rec.ID_DataInputVariant) @rec.Operand_1 @rec.Type_operation @rec.Operand_2 = @rec.Result</p>
+        </li>
+    }
 }
+</ul>

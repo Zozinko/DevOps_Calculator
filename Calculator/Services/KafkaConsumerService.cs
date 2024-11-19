@@ -71,7 +71,7 @@ namespace Calculator.Services
 
                     var httpClient = _clientFactory.CreateClient();
 
-                    await httpClient.PostAsJsonAsync($"http://localhost:5015/Calculator/Callback", inputData);
+                    await httpClient.PostAsJsonAsync($"http://localhost:5016/Calculator/Callback", inputData);
 
                     // Обработка сообщения...
                     Console.WriteLine($"Message key: {cr.Message.Key}, value: {cr.Message.Value}");

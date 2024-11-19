@@ -2,11 +2,10 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Confluent.Kafka/2.6.0": {
+      "Confluent.Kafka/2.6.1": {
         "type": "package",
         "dependencies": {
-          "System.Memory": "4.5.0",
-          "librdkafka.redist": "2.6.0"
+          "librdkafka.redist": "2.6.1"
         },
         "compile": {
           "lib/net6.0/Confluent.Kafka.dll": {
@@ -32,7 +31,7 @@
           }
         }
       },
-      "librdkafka.redist/2.6.0": {
+      "librdkafka.redist/2.6.1": {
         "type": "package",
         "build": {
           "build/_._": {}
@@ -461,15 +460,6 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Memory/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.1/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.1/_._": {}
-        }
-      },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
@@ -489,17 +479,19 @@
     }
   },
   "libraries": {
-    "Confluent.Kafka/2.6.0": {
-      "sha512": "hnJqbYssNx0xlfTV45/XB419ZEQhzrjnXfeDvS8SUQgHh/Q7qd1dH3ubV2I/k6+abBR28Yv/EOeoAEgmDbaUUQ==",
+    "Confluent.Kafka/2.6.1": {
+      "sha512": "DCap4xzbUzItoFVBCmBbng6q4XbaxfqLgR/b56b67L9S0iUTIwrSAvk3MPegyQNn56+1C/m3ytwy1YU+nAuqDA==",
       "type": "package",
-      "path": "confluent.kafka/2.6.0",
+      "path": "confluent.kafka/2.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "confluent-logo.png",
-        "confluent.kafka.2.6.0.nupkg.sha512",
+        "confluent.kafka.2.6.1.nupkg.sha512",
         "confluent.kafka.nuspec",
+        "lib/net462/Confluent.Kafka.dll",
+        "lib/net462/Confluent.Kafka.xml",
         "lib/net6.0/Confluent.Kafka.dll",
         "lib/net6.0/Confluent.Kafka.xml",
         "lib/net8.0/Confluent.Kafka.dll",
@@ -524,10 +516,10 @@
         "logo.png"
       ]
     },
-    "librdkafka.redist/2.6.0": {
-      "sha512": "BGtv6H+rhVBuxcQTvHc/pvKcBYvdq3eQ4KG/edW0SgDGImMN2IJNMInGbzA5hZasg+w+oBAJVCIdkIIGxgnvVw==",
+    "librdkafka.redist/2.6.1": {
+      "sha512": "RcpH/eqmfp08RmfeQdHeJEz0OaAcYWJo8EqQiU4ohDrBygIXbWhCTksUFkhYGqap/5Ycm+HC9RVSlwetFo9SlA==",
       "type": "package",
-      "path": "librdkafka.redist/2.6.0",
+      "path": "librdkafka.redist/2.6.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -543,7 +535,7 @@
         "build/native/lib/win/x86/win-x86-Release/v142/librdkafka.lib",
         "build/native/lib/win/x86/win-x86-Release/v142/librdkafkacpp.lib",
         "build/native/librdkafka.redist.targets",
-        "librdkafka.redist.2.6.0.nupkg.sha512",
+        "librdkafka.redist.2.6.1.nupkg.sha512",
         "librdkafka.redist.nuspec",
         "runtimes/linux-arm64/native/librdkafka.so",
         "runtimes/linux-x64/native/alpine-librdkafka.so",
@@ -985,45 +977,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Memory/4.5.0": {
-      "sha512": "m0psCSpUxTGfvwyO0i03ajXVhgBqyXlibXz0Mo1dtKGjaHrXFLnuQ8rNBTmWRqbfRjr4eC6Wah4X5FfuFDu5og==",
-      "type": "package",
-      "path": "system.memory/4.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/netcoreapp2.1/_._",
-        "lib/netstandard1.1/System.Memory.dll",
-        "lib/netstandard1.1/System.Memory.xml",
-        "lib/netstandard2.0/System.Memory.dll",
-        "lib/netstandard2.0/System.Memory.xml",
-        "lib/uap10.0.16300/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/netcoreapp2.1/_._",
-        "ref/netstandard1.1/System.Memory.dll",
-        "ref/netstandard1.1/System.Memory.xml",
-        "ref/netstandard2.0/System.Memory.dll",
-        "ref/netstandard2.0/System.Memory.xml",
-        "ref/uap10.0.16300/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "system.memory.4.5.0.nupkg.sha512",
-        "system.memory.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "type": "package",
@@ -1052,7 +1005,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Confluent.Kafka >= 2.6.0",
+      "Confluent.Kafka >= 2.6.1",
       "Microsoft.EntityFrameworkCore >= 6.0.21",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.21",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.21",
@@ -1066,11 +1019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TEMP.AT\\Desktop\\My_Repo\\DevOps_Calculator-16\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\TEMP.AT\\Downloads\\DevOps_Calculator-16\\Calculator\\Calculator.csproj",
       "projectName": "Calculator",
-      "projectPath": "C:\\Users\\TEMP.AT\\Desktop\\My_Repo\\DevOps_Calculator-16\\Calculator\\Calculator.csproj",
+      "projectPath": "C:\\Users\\TEMP.AT\\Downloads\\DevOps_Calculator-16\\Calculator\\Calculator.csproj",
       "packagesPath": "C:\\Users\\TEMP.AT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TEMP.AT\\Desktop\\My_Repo\\DevOps_Calculator-16\\Calculator\\obj\\",
+      "outputPath": "C:\\Users\\TEMP.AT\\Downloads\\DevOps_Calculator-16\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1110,7 +1063,7 @@
         "dependencies": {
           "Confluent.Kafka": {
             "target": "Package",
-            "version": "[2.6.0, )"
+            "version": "[2.6.1, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
