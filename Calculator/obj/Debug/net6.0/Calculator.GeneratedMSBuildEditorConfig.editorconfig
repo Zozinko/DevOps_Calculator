@@ -5,43 +5,40 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Calculator
 build_property.RootNamespace = Calculator
-build_property.ProjectDir = C:\Users\TEMP.AT\Desktop\My_Repo\DevOps_Calculator-16\Calculator\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\Iakimov.Nikolai\Desktop\DevOps_Calculator\Calculator\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\TEMP.AT\Desktop\My_Repo\DevOps_Calculator-16\Calculator
+build_property.MSBuildProjectDirectory = C:\Users\Iakimov.Nikolai\Desktop\DevOps_Calculator\Calculator
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/TEMP.AT/Desktop/My_Repo/DevOps_Calculator-16/Calculator/Views/Calculator/Index.cshtml]
+[C:/Users/Iakimov.Nikolai/Desktop/DevOps_Calculator/Calculator/Views/Calculator/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY3VsYXRvclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TEMP.AT/Desktop/My_Repo/DevOps_Calculator-16/Calculator/Views/Calculator/Privacy.cshtml]
+[C:/Users/Iakimov.Nikolai/Desktop/DevOps_Calculator/Calculator/Views/Calculator/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY3VsYXRvclxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TEMP.AT/Desktop/My_Repo/DevOps_Calculator-16/Calculator/Views/Shared/Error.cshtml]
+[C:/Users/Iakimov.Nikolai/Desktop/DevOps_Calculator/Calculator/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TEMP.AT/Desktop/My_Repo/DevOps_Calculator-16/Calculator/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Iakimov.Nikolai/Desktop/DevOps_Calculator/Calculator/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TEMP.AT/Desktop/My_Repo/DevOps_Calculator-16/Calculator/Views/_ViewImports.cshtml]
+[C:/Users/Iakimov.Nikolai/Desktop/DevOps_Calculator/Calculator/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TEMP.AT/Desktop/My_Repo/DevOps_Calculator-16/Calculator/Views/_ViewStart.cshtml]
+[C:/Users/Iakimov.Nikolai/Desktop/DevOps_Calculator/Calculator/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/TEMP.AT/Desktop/My_Repo/DevOps_Calculator-16/Calculator/Views/Shared/_Layout.cshtml]
+[C:/Users/Iakimov.Nikolai/Desktop/DevOps_Calculator/Calculator/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-i5kysbodk9
