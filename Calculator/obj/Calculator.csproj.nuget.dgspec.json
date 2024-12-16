@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Iakimov.Nikolai\\Desktop\\DevOps_Calculator\\Calculator\\Calculator.csproj": {}
+    "D:\\DevOps\\DevOps_Calculator-16\\Calculator\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Iakimov.Nikolai\\Desktop\\DevOps_Calculator\\Calculator\\Calculator.csproj": {
+    "D:\\DevOps\\DevOps_Calculator-16\\Calculator\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Iakimov.Nikolai\\Desktop\\DevOps_Calculator\\Calculator\\Calculator.csproj",
+        "projectUniqueName": "D:\\DevOps\\DevOps_Calculator-16\\Calculator\\Calculator.csproj",
         "projectName": "Calculator",
-        "projectPath": "C:\\Users\\Iakimov.Nikolai\\Desktop\\DevOps_Calculator\\Calculator\\Calculator.csproj",
-        "packagesPath": "C:\\Users\\Iakimov.Nikolai\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Iakimov.Nikolai\\Desktop\\DevOps_Calculator\\Calculator\\obj\\",
+        "projectPath": "D:\\DevOps\\DevOps_Calculator-16\\Calculator\\Calculator.csproj",
+        "packagesPath": "C:\\Users\\nikol\\.nuget\\packages\\",
+        "outputPath": "D:\\DevOps\\DevOps_Calculator-16\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Iakimov.Nikolai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -45,7 +50,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
