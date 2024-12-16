@@ -59,3 +59,6 @@ D:\DevOps\Calculator\DevOps_Calculator\Calculator\obj\Debug\net8.0\refint\Calcul
 D:\DevOps\Calculator\DevOps_Calculator\Calculator\obj\Debug\net8.0\Calculator.pdb
 D:\DevOps\Calculator\DevOps_Calculator\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
 D:\DevOps\Calculator\DevOps_Calculator\Calculator\obj\Debug\net8.0\ref\Calculator.dll
+D:\DevOps\DevOps_Calculator-16\Calculator\obj\Debug\net8.0\Calculator.dll
+D:\DevOps\DevOps_Calculator-16\Calculator\obj\Debug\net8.0\refint\Calculator.dll
+D:\DevOps\DevOps_Calculator-16\Calculator\obj\Debug\net8.0\Calculator.pdb
