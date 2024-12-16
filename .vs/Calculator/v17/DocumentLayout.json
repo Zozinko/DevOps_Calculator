@@ -1,88 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TEMP.AT\\Downloads\\DevOps_Calculator-16\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B182DA10-D000-44A1-979C-8399F765A057}|Calculator\\Calculator.csproj|c:\\users\\temp.at\\downloads\\devops_calculator-16\\calculator\\jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B182DA10-D000-44A1-979C-8399F765A057}|Calculator\\Calculator.csproj|solutionrelative:calculator\\jenkinsfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B182DA10-D000-44A1-979C-8399F765A057}|Calculator\\Calculator.csproj|c:\\users\\temp.at\\downloads\\devops_calculator-16\\calculator\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B182DA10-D000-44A1-979C-8399F765A057}|Calculator\\Calculator.csproj|solutionrelative:calculator\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B182DA10-D000-44A1-979C-8399F765A057}|Calculator\\Calculator.csproj|c:\\users\\temp.at\\downloads\\devops_calculator-16\\calculator\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B182DA10-D000-44A1-979C-8399F765A057}|Calculator\\Calculator.csproj|solutionrelative:calculator\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B182DA10-D000-44A1-979C-8399F765A057}|Calculator\\Calculator.csproj|c:\\users\\temp.at\\downloads\\devops_calculator-16\\calculator\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B182DA10-D000-44A1-979C-8399F765A057}|Calculator\\Calculator.csproj|solutionrelative:calculator\\controllers\\calculatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\DevOps\\DevOps_Calculator-16\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Jenkinsfile",
-              "DocumentMoniker": "C:\\Users\\TEMP.AT\\Downloads\\DevOps_Calculator-16\\Calculator\\Jenkinsfile",
-              "RelativeDocumentMoniker": "Calculator\\Jenkinsfile",
-              "ToolTip": "C:\\Users\\TEMP.AT\\Downloads\\DevOps_Calculator-16\\Calculator\\Jenkinsfile",
-              "RelativeToolTip": "Calculator\\Jenkinsfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-10T10:14:57.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\TEMP.AT\\Downloads\\DevOps_Calculator-16\\Calculator\\Dockerfile",
-              "RelativeDocumentMoniker": "Calculator\\Dockerfile",
-              "ToolTip": "C:\\Users\\TEMP.AT\\Downloads\\DevOps_Calculator-16\\Calculator\\Dockerfile",
-              "RelativeToolTip": "Calculator\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-10T10:14:56.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\TEMP.AT\\Downloads\\DevOps_Calculator-16\\Calculator\\docker-compose.yml",
-              "RelativeDocumentMoniker": "Calculator\\docker-compose.yml",
-              "ToolTip": "C:\\Users\\TEMP.AT\\Downloads\\DevOps_Calculator-16\\Calculator\\docker-compose.yml",
-              "RelativeToolTip": "Calculator\\docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-12-10T10:14:53.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CalculatorController.cs",
-              "DocumentMoniker": "C:\\Users\\TEMP.AT\\Downloads\\DevOps_Calculator-16\\Calculator\\Controllers\\CalculatorController.cs",
-              "RelativeDocumentMoniker": "Calculator\\Controllers\\CalculatorController.cs",
-              "ToolTip": "C:\\Users\\TEMP.AT\\Downloads\\DevOps_Calculator-16\\Calculator\\Controllers\\CalculatorController.cs",
-              "RelativeToolTip": "Calculator\\Controllers\\CalculatorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T20:47:35.964Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
